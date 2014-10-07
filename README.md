@@ -1,0 +1,7 @@
+# Meigen to Slack
+
+## ENV
+
+- SLACK_TOKEN
+- SLACK_CHANNNEL
+- SLACK_ICON
