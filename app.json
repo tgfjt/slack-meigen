@@ -1,0 +1,17 @@
+{
+  "name": "Slack Meigen",
+  "description": "A Good Message for Today.",
+  "repository": "https://github.com/tgfjt/slack-meigen",
+  "keywords": ["message", "clockwork", "iwanami"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "A secret key for Slack API."
+    },
+    "SLACK_CHANNEL": {
+      "description": "A Name of Channel ex: #room1"
+    },
+    "SLACK_ICON": {
+      "description": "@see http://www.emoji-cheat-sheet.com/"
+    }
+  }
+}
