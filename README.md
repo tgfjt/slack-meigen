@@ -9,6 +9,7 @@ from: http://www.iwanami.co.jp/meigen/
 
 - SLACK_TOKEN
 	- see: [slack webhook](https://tagpanda.slack.com/services/new/incoming-webhook)
+- SLACK_TEAM
 - SLACK_CHANNNEL
 	- ex: `#room1`
 - SLACK_ICON

@@ -18,7 +18,7 @@ end
 
 def meigen_job
   url = 'http://www.iwanami.co.jp/meigen/heute.html'
-  api = "https://tagpanda.slack.com/services/hooks/incoming-webhook?token=#{ENV['SLACK_TOKEN']}"
+  api = "https://#{ENV['SLACK_TEAM']}.slack.com/services/hooks/incoming-webhook?token=#{ENV['SLACK_TOKEN']}"
   html = open(url).read
 
   doc = Nokogiri::HTML.parse(html, nil)

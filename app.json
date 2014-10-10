@@ -7,6 +7,9 @@
     "SLACK_TOKEN": {
       "description": "A secret key for Slack API."
     },
+    "SLACK_TEAM": {
+      "description": "A name of team."
+    },
     "SLACK_CHANNEL": {
       "description": "A Name of Channel ex: #room1"
     },
